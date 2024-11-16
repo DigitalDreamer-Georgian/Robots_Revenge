@@ -1,0 +1,70 @@
+title: NPC_Dialog_Kai
+position: 86,-736
+---
+This dialogue was written by Hunter Westgate - 200613688
+Kai: We need more scrap...
+Kai: ..
+Kai: Oh, hello Garbot. 
+Garbot: Hello Kai, it's been very empty around here recently, hasn't it?
+Kai: Too empty, I need more scrap Garbot, I don't know what to do without it.
+-> How about taking a walk to another area?
+   <<jump takewalk>>
+-> You should probably just wait for the Owner to bring in more. There will be a large amount that way.
+   <<jump waitformore>>
+-> QUEST Training with Kai
+   <<jump Kai_quest>>
+   Kai: Hey Garbot, how about we do some training?
+
+===
+title: takewalk
+position: 192,-533
+---
+Kai: Hmm.. Maybe I should, but I doubt theres much more trash in the other areas.
+Garbot: I suppose you're right, but some is better than none, right?
+Kai: You're right, but I think i'll just stay here for now and think about it.
+Garbit: Alright, have fun with that, Kai.
+===
+title: waitformore
+position: -31,-534
+---
+Kai: You're right, Garbot. I'll just wait for the Owner to bring in some new scrap.
+Kai: Just standing around is frusturating, but I'll have to deal with it for now.
+Kai: At least once the scrap gets here I'll have something to do again..
+-> That's right, but you could always take a walk to another area to look for more scrap.
+   <<jump takewalk>>
+-> You could go ask the Owner when the next import will be.
+   <<jump askowner>>
+===
+title: askowner
+position: -31,-366
+---
+Kai: That's not a bad idea, I think I'll do that soon, thanks for the idea Garbot.
+Garbot: No Problem Kai, see you later.
+===
+title: Kai_quest
+position: 203,-365
+---
+<color=yellow>QUEST Training with Kai (Written by Hunter Westgate):</color>Kai is wanting to do some training, he hasn't trained or fought in a long time and has become quiet rusty at it, he wants you to help him grind off that rust and give him a good training session.
+-> Sure, why not.
+   <<jump Accept_Kai>>
+-> I'll pass.
+   <<jump Decline_Kai>>
+===
+title: Accept_Kai
+position: 98,-154
+---
+Kai: Thanks for agreeing to this. I’ve.. definitely let my skills go. Feels like it's been forever since I did anything other than this job.  
+Garbot: No problem. Everyone needs some practice every now and then.   
+Kai: Thats true, but I’ll need more than just a little practice though.. I don’t want to be too weak to defend myself in case anything happens.  
+Garbot: You won't be. Just focus, and let’s see what you can do.
+Kai: Yeah.. you’re right. Thanks for agreeing to this, I’ll meet you in the open area where the dummies are set up.
+:<color=yellow>QUEST RECIEVED: TRAINING WITH KAI</color>
+===
+title: Decline_Kai
+position: 313,-154
+---
+Kai: Oh, is that so? I get it.
+Garbot: Sorry Kai, just not up to it right now, plus the Owner probably doesn't want us fighting eachother at the moment.
+Kai: You're right, but- nevermind, it's fine.
+Garbot: Again, apologies Kai.
+===

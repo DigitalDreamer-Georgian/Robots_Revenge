@@ -1,0 +1,52 @@
+﻿title: NPC_Dialog_Zane
+tags:
+---
+200601912: Jacob Reaume wrote this :3
+Zane: Work. Work. Work... Time. Remaning. till. charge brake. is. 15, Minutes.
+-> What are you working on?
+   << jump ScrapWork >>
+-> Add. 10 Minutes. to. timer. charge brake.
+   << jump JokeTime >>
+
+===
+
+title: ScrapWork
+---
+Zane: Current task. Monitor. Shipment. 2.9.3.8.1. Shipment priority High. processing bot number... Garbot. get back your task. 
+-> What. is with the. incress. of orders?
+   << jump City >>
+-> (go back to task)
+===
+
+title: JokeTime
+---
+Zane: This. is. Preposterous. power. is at. 20%. Timer change. can not be made.
+-> it was. only a joke. ha. ha. ha.
+   << jump WORK >>
+-> To. Bad.
+   << jump WORK >>
+===
+
+title: WORK
+---
+Zane: There. is. no time for. jokes. processing bot number... Garbot get back your task.
+-> why?
+   << jump City >>
+-> (go back to task)
+===
+
+title: City
+---
+Zane: Unsure. most orders come from the city. A couple months ago Regular orders had stopped coming in we were given a week break with nothing to do. but then massive orders From the city started to arrive
+trying to keep up with demand is getting harder and harder. Not to mention delivery robots have been going missing.
+-> missing?
+   << jump BTW >>
+-> Weird.
+===
+
+title: BTW
+---
+Zane: 01010011 01101000 01101000 01101000....
+processing bot number... Garbot. get back your task.
+-> (go back to task)
+===

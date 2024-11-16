@@ -1,0 +1,99 @@
+title: NPC_Dialog_ScrapYardOwner
+tags:
+position: -113,-230
+---
+IsaacMoore: i wrote this dialog. 
+Scrap Man: oh i see you're finally awake...
+ -> Where am i?
+    <<jump Scrapmanresponse>>
+ -> You look funny
+     Scrap Man: ...
+-> hello again! (isaac's quest)
+    <<jump ScrapCollector>>
+-> (Jay's Quest)I'm looking for a date place for Jay and Nya, do you have any suggestions?<<if $questCon == 1>>
+    <<jump DateAdvise>>
+-> (Jay's Quest)I found something suspicious in the trashpad.<<if $questCon == 2>>
+    <<jump SuspiciousTraces>>
+-> show scrap (finish quest)
+    Scrap Man: Ah well done! for your reward here (upgrade)
+    Scrap Man: now you should be able to dash around and move faster to collect me more scrap!
+        -> oh gee... thanks <color=yellow>QUEST complete
+
+
+===
+title: Scrapmanresponse
+position: -287,-101
+---
+Scrap Man: You my fine frenzied friend are in the finest scrap yard north of Grimlave!
+-> that just seems like lazy writting
+    Scrap Man: what?
+    <<jump maidenless>>
+-> are you my employer?
+    Scrap Man: more like owner...
+    <<jump maidenless>>
+===
+title: maidenless
+position: -32,108
+---
+Scrap Man: anyways... time to give you the run down of what you're doing here...
+Scrap Man: basically YOU get ME scrap. thats it. just go through the junk piles till you find the shinies
+Scrap Man: you can collect them by hitting E on your circuit board
+-> thanks! is there any other controls i should be aware of?
+    Scrap Man: to hit things use Left Mouse Button if you get frustrated with any of your co-workers
+    <<jump plotBegings>>
+-> Thanks. I am already familiar with how to orientate myself
+    <<jump plotBegings>>
+===
+title: plotBegings
+position: 117,-148
+---
+Scrap Man: well i suppose you should get to it. not a lot of daylight left...
+Scrap Man: good luck out there on your first day! I'm expecting big things from you
+-> wait 
+    Scrap Man: ?
+        -> why do you look the way you do?
+            Scrap Man: ...
+            <<jump ScrapCollector>>
+-> I wont disapoint!
+    Scrap Man: ...
+    <<jump ScrapCollector>>
+===
+
+title: ScrapCollector
+position: 89,-479
+---
+<color=yellow>QUEST Scrap Runner (Written by Isaac Moore):</color> The Owner expects big things from you... COLLECT 5 pieces of scrap from around the junkyard and deliver it to him
+-> i cannot complete such a monumental task 
+-> hell yeah!
+    <<jump questaccept>>
+===
+title: questaccept
+position: 208,-309
+---
+-> Great to hear! collect for me 5 scrap and then return to me
+===
+//the quest continues with the player going around the junkyard collecting said scrap from trash piles and different areas
+//after the player collects all 5 pieces they return to the Owner
+//this is where the player learns about upgrades and how to use scrap to recieve them
+
+
+//Jay's quest branch dialogue
+title: DateAdvise
+position: 387,-36
+---
+
+Scrap Man: A place for a date? Go to the trashpad, there is grass there. Green is rare in a garbage dump.
+Garbot: Thanks, funny man!
+Scrap Man:......
+
+===
+title: SuspiciousTraces
+position: 387,128
+---
+Scrap Man: What did you find?
+Garbot: The trashpad looked strange, as if it had been damaged by something. I saw a crack in the wall surrounding the garbage dump.
+Scrap Man: Really? I see. You should stay away from that place for now. Tell other robots to stay away from the trashpad.
+<<set $questCon = 3>>
+
+===
+//Jay's quest branch end.

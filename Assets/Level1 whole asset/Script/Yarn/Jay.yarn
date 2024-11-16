@@ -1,0 +1,100 @@
+﻿title: NPC_Dialog_Jay
+position: -120,-301
+---
+Jiawei Li: This dialogue is written by Jiawei Li 200607810
+<<declare $meet = false>>
+<<declare $questCon = 0>>
+<<if $meet == false>>
+    Robot Jay: Hello, I'm Jay. I haven't seen you before, are you new here?
+    Garbot: I am Garbot. I've just been activated and I don't know anything about this place.
+    Robot Jay: Oh, welcome new friends! Here is the trash yard. It's a community for garbage disposal robots. Welcome to join us. You are safe here. I heard from the owner of the garbage yard that the world outside is dangerous. So we'd better stay here and don't go out.
+    
+<<else>>
+    Robot Jay: Hello Garbot.
+<<endif>>
+
+-> Garbot: What is the world outside like?
+   <<set $meet = true>>
+   <<jump Outside>>
+-> Garbot: Aren't you curious about the outside world?
+   <<set $meet = true>>
+   <<jump Job>>
+-> Garbot: Nice to meet you Jay!
+    Robot Jay: Me too!
+    <<set $meet = true>>
+-> QUEST Jay's Trouble, Author is Jiawei Li<<if $meet && $questCon == 0>>
+    <<jump Jay_quest>>
+    Robot Jay: Garbot can you do me a favor?
+-> Garbot: I got some results.<<if $questCon == 3 ||  $questCon == 4>>
+    <<jump Quest_end>>
+===
+
+title: Outside
+position: 200,-145
+---
+Robot Jay: I haven't seen it, but I heard that it is the human world. It seems that something happened before that made the outside world dangerous.
+Robot Jay: I wonder if this rumor is true or not? Maybe, outside the trashyard is still the human world, and nothing has changed?
+-> Garbot: Aren't you curious about the outside world?
+    <<jump Job>>
+-> Garbot: Thank you Jay.
+
+
+===
+
+title: Job
+position: -115,63
+---
+Robot Jay: Yes, I am a little curious, but it doesn't matter. Because here are my friends and colleagues. We have a lot of work to do. We just have to stay here and do our job well. 
+Robot Jay: Recycling, processing, and transformation of garbage. Let waste regain its value. What a great job.
+
+-> Garbot: Have you ever imagined what the outside world looks like?
+    <<jump Outside>>
+-> Garbot: Enjoy your job, Jay.
+
+
+===
+
+title: Jay_quest
+position: 142,-416
+---
+QUEST Jay's trouble(Written by Jiawei Li): Robot Jay has a problem recently. He has a crush on robot Nya but doesn't know how to bring them closer. Now he has a plan, but he needs your help.
+Garbot: Of course, mate. Is there anything I can help you with?
+Robot Jay: Actually I want to find a nice place to date Nya. But this is a garbage dump after all. I can't find a decent place. And I have work to do, so I can't walk around. Can you help me find it?
+
+-> Garbot: Of course, Jay, I will help you find a good place.
+   Garbot: Looks like I need to go around the junkyard to find a nice place for Jay. Oh I get it! The junkyard owner is familiar with this place, maybe I should ask his opinion.
+    <<set $questCon = 1>>
+-> Garbot: Let me think about it.
+
+
+===
+
+title: Jay_QuestProcess
+position: 217,89
+---
+<<if $questCon == 1>>
+Garbot: This area looks pretty good, at least there is grass here, which is rare in a garbage dump. It should meet Jay's requirements. Let me see... Wait, what are these marks? Looks like a lot of scratches, and some of the other garbage piles look like they've been hit? There seems to be a big gap here.
+
+-> Garbot: I must be overthinking this, it must be some silly prank. I'll tell Jay I found a good date place right now.
+   <<set $questCon = 4>>
+-> Garbot: I should report this strange situation to the junkyard owner.
+   <<set $questCon = 2>>
+<<else>>
+Robot Jay: What a beautiful place.
+<<endif>>
+===
+
+title: Quest_end
+position: 61,257
+---
+Robot Jay: How's that going, Garbot? Have you found a nice date spot?
+
+-> Garbot: Of course, I did find it. Trash Pad is a good place. That would be a great date spot.<<if $questCon == 4>>
+    Robot Jay: Thank you, Garbot! Here is some Scraps.
+    Quest Reward: You get 10 scraps!
+    <<set $questCon = 5>>
+-> Garbot: Sorry, I didn't find a good place. Also, the garbage yard owner just banned all robots from going to the Trash Pad.<<if $questCon == 3>>
+    Robot Jay: What a shame, it seems I'll just have to keep working.
+    Quest Jay's trouble: Quest complete
+    <<set $questCon = 5>>
+===

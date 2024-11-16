@@ -1,0 +1,102 @@
+﻿title: NPC_Dialog_Nya
+tags:
+---
+<<jump Start>>
+===
+﻿title: Start
+tags:
+---
+_: This dialoge is made by Dmitri Janik   StudentNumber 200608718
+Nya: Hi there Garbot what are you here for?
+
+-> Chat with you
+	<<jump chat>>
+-> Find excuse in the storage
+	<<jump excuses>>
+-> Nope you're too scared of her
+===
+title: chat
+tags:
+---
+Garbot: Well can I just be here to talk with you?
+Nya: Sure!
+Garbot: 'Ok. What do I say to her?'
+-> Talk about the weather
+	Garbot: Nice weather here right?
+		Nya: It nice but there hasn't been a change in  2  months maybe a varience of tempature but I haven't personaly logged that information.
+			Garbot: Woah slowdown you are trailing off! 
+				Nya: *Giggle shyly* I was was I. Anything else?
+					<<jump chat2>>
+-> Ask about what she is doing
+	Garbot: So how are you and what are you doing?
+		Nya: Fine and I manage the storage in here at the storage unit obviously Garbot.
+			Garbot: Oh I'm an idiot. Why do I keep asking that?
+				<<jump Bail>>
+-> *Frendly flirt*
+	Garbot: Well You look absolutly beautifull today Nya!
+		Nya: *Blushes* Garbot you tease. I havent changed any parts out nor did I modified them.
+			Garbot: Well I notice it till now. 'Well great job Garbot you Scrooge'd yourself!'
+				Nya: *slightly angery* Leave less you have something better to say.
+					<<jump chat3>>
+===
+title:excuses
+tags:
+---
+Garbot: Uh there is a part I need to get inside
+Nya: Can I know what it is and i can get it for you.
+-> Yes
+	Garbot: Yes it is uh...
+		Nya: The portable engine you were working on eventhough you shouldn't
+			Garbot: *Looks down disapointed* Urgh yes.
+				
+-> No
+	Garbot: No I think I got it, I know where it is.
+-> You didnt actualy need anything or you forgot.
+===
+title: chat2
+tags:
+---
+Garbot: 'Ok. What do I say to her?'
+-> Ask about what she is doing
+	Garbot: So how are you and what are you doing?
+		Nya: Fine and I manage the storage in here at the storage unit obviously Garbot.
+			Garbot: Oh I'm an idiot. Why do I keep asking that?
+				<<jump Bail>>
+-> *Frendly flirt*
+	Garbot: Well You look absolutly beautifull today Nya!
+		Nya: *Blushes* Garbot you tease. I havent changed any parts out nor did I modified them.
+			Garbot: Well I notice it till now. 'Well great job Garbot you Scrooge'd yourself!'
+				Nya: *slightly angery* Leave less you have something better to say.
+					<<jump chat4>>
+===
+title: chat3
+tags:
+---
+Garbot: 'Ok. What do I say to her?'
+-> Talk about the weather
+	Garbot: Nice weather here right?
+		Nya: It nice but there hasn't been a change in  2  months maybe a varience of tempature but I haven't personaly logged that information.
+			Garbot: Woah slowdown you are trailing off! 
+				Nya: *Giggle shyly* I was was I. Anything else?
+					<<jump chat4>>
+-> Ask about what she is doing
+	Garbot: So how are you and what are you doing?
+		Nya: Fine and I manage the storage in here at the storage unit obviously Garbot.
+			Garbot: Oh I'm an idiot. 'Why do I keep asking that?'
+				<<jump Bail>>
+===
+title: chat4
+tags:
+---
+Garbot: 'Ok. What do i say to her?'
+-> Ask about what she is doing
+	Garbot: So how are you and what are you doing?
+		Nya: Fine and I manage the storage in here at the storage unit obviously Garbot.
+			Garbot: Oh I'm an idiot. 'Why do I keep asking that?'
+				<<jump Bail>>
+===
+title: Bail
+tag:
+---
+Garbot: 'I've got to get out of here' Hey Garbot get back to work.*Garbot imitates the owner poorly* I got to go now.
+===

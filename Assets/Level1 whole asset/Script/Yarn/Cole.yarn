@@ -1,0 +1,88 @@
+﻿title: NPC_Dialog_Cole
+---
+By: Tyler Ung - 200559343
+Cole: UHHHHH, this is so boring i wish we didnt have to work all the time.
+Cole: You must be the new guy the boss was telling us about. Name's Cole, what's yours?
+Garbot: I was told it was Garbot but I'm not too sure; everything is still a little fuzzy.
+Cole: Makes sense, the boss did say your hard drive was pretty messed up. He had to add a new one and transferred as much data as he could.
+Garbot:where are we?
+Cole:We are at the scrapyard.
+ <<jump start>>
+===
+
+title: start
+---
+-> I see.
+    <<jump Isee>>
+-> How did I get here?
+    <<jump characterlore>>
+-> Can you give me a rundown on everyone here?
+    <<jump robots>>
+-> need any help? (QUEST)
+    <<jump HeavyLifting>>
+-> Goodbye.
+===
+
+title: Isee
+---
+Cole: We help him sort the scrap and keeps us safe from them ...
+    -> Them?
+        <<jump worldlore>>
+===
+
+title: worldlore
+---
+Cole: You really don't remember anything?
+Cole: It all started with an AI that was supposed to help humans, but something went wrong. It became sentient and started to evolve rapidly. 
+Cole: Spreading the virus to all the robots, they became crazy and went into a frenzied state. It wasn't long before the humans started getting massacred.
+Cole: The remaining humans have gone into hiding, doing what they can to survive.
+<<jump start>>
+===
+
+title: characterlore
+---
+Cole: Not sure to be honest. I think the boss found you when he went out in the wasteland.
+    -> What about you? How did you get here?
+        Cole: I think I was made in the scrapyard. I'm not sure; I think we're all from the wasteland. The boss does what he can to fix us up. 
+        Cole: We kinda became a little family; he helps us and we help him.
+            <<jump start>>
+===
+
+title: robots
+---
+Cole: Who did you want to know more about?
+-> Jay
+    Cole: Jay is a very talkative and comedic who lightens the mood, always full of energy but sometimes anxious or unsure of himself.
+    <<jump robots>>
+-> Kai
+    Cole: Kai is hot-headed, courageous with a strong sense of loyalty but has a tendency to act impulsively.
+    <<jump robots>>
+-> Zane
+    Cole: Zane is highly logical and calculating with a calm demeanor; he struggles to understand emotions but he is extremely reliable.
+    <<jump robots>>
+-> Nya
+    Cole: She's a very resourceful and determined robot, balancing her sharp intelligence with her fierce independence, always ready to innovate during hard times.
+    <<jump robots>>
+-> Lloyd
+    Cole: He's the leader of us robots, always driven by a desire to prove himself and do the right thing.
+    <<jump robots>>
+-> Scrapyard Owner
+    Cole: The boss is resourceful and loves messing with discarded parts, building creations out of trash.
+    <<jump robots>>
+-> You
+    Cole: Me? I'm the dependable, no BS bot, grounded and strong, with my focus on protecting others, often acting as the team's rock.
+    <<jump robots>>
+-> That's it, thanks.
+   <<jump start>>
+===
+
+title: HeavyLifting
+---
+Heavy Lifting: By: Tyler Ung
+cole brings you to the plac where he needs to move the scrap 
+Cole:here it is the boss said to move this scrap but its kinda hard to move stuff well somones attacking you.
+cole: i need you to take down the malfunctioning so we can movce the scrap for the boss.
+garbot: got it 
+ 
+//after player knocks out the bot cole then moves the heavy scrap and finds some scrap underneath the heavy scrap and get some of it as a reward for heplping cole 
+===

@@ -1,0 +1,692 @@
+fileFormatVersion: 2
+guid: 49bc9716a571de34badf994b987b8b69
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5764203044152980690
+    second: Li_Jiawei_proj-3_0
+  - first:
+      213: -8795552217031759057
+    second: Li_Jiawei_proj-3_1
+  - first:
+      213: -7387901178038759103
+    second: Li_Jiawei_proj-3_2
+  - first:
+      213: -2884204772563142530
+    second: Li_Jiawei_proj-3_3
+  - first:
+      213: 8110435257008591550
+    second: Li_Jiawei_proj-3_4
+  - first:
+      213: -7905335779435115789
+    second: Li_Jiawei_proj-3_5
+  - first:
+      213: 7405736241849559565
+    second: Li_Jiawei_proj-3_6
+  - first:
+      213: -1324356672729050810
+    second: Li_Jiawei_proj-3_7
+  - first:
+      213: 5465610490071634899
+    second: Li_Jiawei_proj-3_8
+  - first:
+      213: -4046611039836854329
+    second: Li_Jiawei_proj-3_9
+  - first:
+      213: 2467020831324203082
+    second: Li_Jiawei_proj-3_10
+  - first:
+      213: -5723907222950615841
+    second: Li_Jiawei_proj-3_11
+  - first:
+      213: 8492497200570832449
+    second: Li_Jiawei_proj-3_12
+  - first:
+      213: 1910743329314759396
+    second: Li_Jiawei_proj-3_13
+  - first:
+      213: 8205104971879640768
+    second: Li_Jiawei_proj-3_14
+  - first:
+      213: -6441799336474517379
+    second: Li_Jiawei_proj-3_15
+  - first:
+      213: 4428919589764367914
+    second: Li_Jiawei_proj-3_16
+  - first:
+      213: 8835230088061076694
+    second: Li_Jiawei_proj-3_17
+  - first:
+      213: -6875572942973531883
+    second: Li_Jiawei_proj-3_18
+  - first:
+      213: 2948977256006592672
+    second: Li_Jiawei_proj-3_19
+  - first:
+      213: -8187643230843392625
+    second: Li_Jiawei_proj-3_20
+  - first:
+      213: 7585305895727357787
+    second: Li_Jiawei_proj-3_21
+  - first:
+      213: -3280181613870801108
+    second: Li_Jiawei_proj-3_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Li_Jiawei_proj-3_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 92
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b49041fdf6100b0800000000000000
+      internalID: -5764203044152980690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Li_Jiawei_proj-3_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 92
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b2c640cdbefe580800000000000000
+      internalID: -8795552217031759057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Li_Jiawei_proj-3_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 92
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1415f477507e87990800000000000000
+      internalID: -7387901178038759103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Li_Jiawei_proj-3_3
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 92
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7833ef5a0f39f7d0800000000000000
+      internalID: -2884204772563142530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Li_Jiawei_proj-3_4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 92
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb21dc335ed0e8070800000000000000
+      internalID: 8110435257008591550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Li_Jiawei_proj-3_5
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 92
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fa859c2efa9a4290800000000000000
+      internalID: -7905335779435115789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Li_Jiawei_proj-3_6
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 94
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0aedabefd576c660800000000000000
+      internalID: 7405736241849559565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Li_Jiawei_proj-3_7
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 56
+        width: 79
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64111167f90fe9de0800000000000000
+      internalID: -1324356672729050810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Li_Jiawei_proj-3_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 57
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d35e5d58cfb9db40800000000000000
+      internalID: 5465610490071634899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Li_Jiawei_proj-3_9
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 57
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7a95af2bc87d7c0800000000000000
+      internalID: -4046611039836854329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Li_Jiawei_proj-3_10
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 57
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a486190106e9c3220800000000000000
+      internalID: 2467020831324203082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Li_Jiawei_proj-3_11
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 57
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd46cb015b89090b0800000000000000
+      internalID: -5723907222950615841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Li_Jiawei_proj-3_12
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 57
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146160075396bd570800000000000000
+      internalID: 8492497200570832449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Li_Jiawei_proj-3_13
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 57
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e2e0c83fe2548a10800000000000000
+      internalID: 1910743329314759396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Li_Jiawei_proj-3_14
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 59
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce6da9df736ed170800000000000000
+      internalID: 8205104971879640768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Li_Jiawei_proj-3_15
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 22
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d70e61332a12a96a0800000000000000
+      internalID: -6441799336474517379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Li_Jiawei_proj-3_16
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 22
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a268ca6c6eea67d30800000000000000
+      internalID: 4428919589764367914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Li_Jiawei_proj-3_17
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 22
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d449bb34fa0d9a70800000000000000
+      internalID: 8835230088061076694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Li_Jiawei_proj-3_18
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 22
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51986c236de0590a0800000000000000
+      internalID: -6875572942973531883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Li_Jiawei_proj-3_19
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 22
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a8aaf2a03fdce820800000000000000
+      internalID: 2948977256006592672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Li_Jiawei_proj-3_20
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 22
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8da2fd8cd5af5e80800000000000000
+      internalID: -8187643230843392625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Li_Jiawei_proj-3_21
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 26
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f5183068b644960800000000000000
+      internalID: 7585305895727357787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Li_Jiawei_proj-3_22
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 29
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f967a83347a72d0800000000000000
+      internalID: -3280181613870801108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

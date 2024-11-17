@@ -1750,26 +1750,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1876775260}
     m_Modifications:
-    - target: {fileID: 5140860285568384893, guid: 512dfe0d846df5f419eb4d43c806a9c1, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7378026212037151151, guid: 512dfe0d846df5f419eb4d43c806a9c1, type: 3}
-      propertyPath: m_Size.x
-      value: 20.820976
-      objectReference: {fileID: 0}
-    - target: {fileID: 7378026212037151151, guid: 512dfe0d846df5f419eb4d43c806a9c1, type: 3}
-      propertyPath: m_Size.y
-      value: 22.367043
-      objectReference: {fileID: 0}
-    - target: {fileID: 7378026212037151151, guid: 512dfe0d846df5f419eb4d43c806a9c1, type: 3}
-      propertyPath: m_Offset.x
-      value: -2.4489937
-      objectReference: {fileID: 0}
-    - target: {fileID: 7378026212037151151, guid: 512dfe0d846df5f419eb4d43c806a9c1, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.10632706
-      objectReference: {fileID: 0}
     - target: {fileID: 7439333101257652495, guid: 512dfe0d846df5f419eb4d43c806a9c1, type: 3}
       propertyPath: m_Name
       value: Jay's Quest Trigger

@@ -10,11 +10,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 202828669618896516, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 85.8
       objectReference: {fileID: 0}
     - target: {fileID: 202828669618896516, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -91.7
       objectReference: {fileID: 0}
     - target: {fileID: 202828669618896516, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -26,15 +26,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 202828669618896516, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 202828669618896516, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 202828669618896516, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 202828669618896516, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -48,6 +48,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1644076813540931919, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
+      propertyPath: m_Size.x
+      value: 5.9359207
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644076813540931919, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
+      propertyPath: m_Size.y
+      value: 5.0182724
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644076813540931919, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.24309921
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644076813540931919, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
+      propertyPath: m_Offset.y
+      value: 1.1660576
+      objectReference: {fileID: 0}
     - target: {fileID: 1695955536621242863, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
       propertyPath: m_Name
       value: Jay's Quest Trigger
@@ -55,6 +71,10 @@ PrefabInstance:
     - target: {fileID: 2857977724711076556, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
       propertyPath: m_Text
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029857073882304413, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7435665576394945477, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
       propertyPath: m_Enabled

@@ -60,6 +60,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scrap Yard Owner Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 2857977724711076556, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
+      propertyPath: m_Text
+      value: Scrap Man
+      objectReference: {fileID: 0}
     - target: {fileID: 7679066451783421803, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
       propertyPath: startnode
       value: NPC_Dialog_ScrapYardOwner

@@ -22,7 +22,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 202828669618896516, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 202828669618896516, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
       propertyPath: m_LocalRotation.x
@@ -34,7 +34,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 202828669618896516, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.7071068
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 202828669618896516, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -46,7 +46,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 202828669618896516, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -90
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1695955536621242863, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
       propertyPath: m_Name
@@ -55,6 +55,22 @@ PrefabInstance:
     - target: {fileID: 2857977724711076556, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
       propertyPath: m_Text
       value: Cole
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029857073882304413, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435665576394945477, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435665576394945477, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5228483023445067891, guid: 01d158986f5aad247846bea1a20f7092, type: 3}
+    - target: {fileID: 7679066451783421803, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
+      propertyPath: startnode
+      value: NPC_Dialog_Cole
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -52,6 +52,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jay's Quest Trigger
       objectReference: {fileID: 0}
+    - target: {fileID: 2857977724711076556, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7435665576394945477, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
       propertyPath: m_Enabled
       value: 0

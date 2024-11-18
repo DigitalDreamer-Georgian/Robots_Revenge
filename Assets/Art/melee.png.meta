@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 61cec6f8a55c44440bd828f177f0e667
+guid: f3f6f3a80a6ca2a4290dd6dc10b03bfd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1138732439248303035
-    second: Janik_Dmitri_proj1     Put this in Unity_0
+      213: -1893995098325767188
+    second: melee_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Janik_Dmitri_proj1     Put this in Unity_0
+      name: melee_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 0
-        width: 60
-        height: 63
+        x: 13
+        y: 1
+        width: 38
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 54c046831e86230f0800000000000000
-      internalID: -1138732439248303035
+      spriteID: ceb26fd2e7d27b5e0800000000000000
+      internalID: -1893995098325767188
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Janik_Dmitri_proj1     Put this in Unity_0: -1138732439248303035
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

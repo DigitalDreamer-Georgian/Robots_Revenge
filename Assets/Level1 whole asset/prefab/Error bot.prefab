@@ -10,11 +10,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2681689959782921041, guid: ec2dfca970431314bbbc575806571746, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 96.700005
+      value: 92.71
       objectReference: {fileID: 0}
     - target: {fileID: 2681689959782921041, guid: ec2dfca970431314bbbc575806571746, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -94.45889
+      value: -91.36
       objectReference: {fileID: 0}
     - target: {fileID: 2681689959782921041, guid: ec2dfca970431314bbbc575806571746, type: 3}
       propertyPath: m_LocalPosition.z
@@ -48,9 +48,23 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5591077034220512009, guid: ec2dfca970431314bbbc575806571746, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591077034220512009, guid: ec2dfca970431314bbbc575806571746, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151997236052586474, guid: ec2dfca970431314bbbc575806571746, type: 3}
+      propertyPath: m_Text
+      value: 'Error bot
+
+'
+      objectReference: {fileID: 0}
     - target: {fileID: 9099606734543937319, guid: ec2dfca970431314bbbc575806571746, type: 3}
       propertyPath: m_Name
-      value: enemy Variant
+      value: Error bot
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

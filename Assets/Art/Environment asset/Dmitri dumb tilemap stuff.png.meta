@@ -459,7 +459,21 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Dmitri dumb tilemap stuff_0: -9028476050264974971
+      Dmitri dumb tilemap stuff_1: -4644436283066759338
+      Dmitri dumb tilemap stuff_10: -7935011582502170734
+      Dmitri dumb tilemap stuff_11: 2372822177964014219
+      Dmitri dumb tilemap stuff_12: -1697338272033387666
+      Dmitri dumb tilemap stuff_13: -2116411686128714828
+      Dmitri dumb tilemap stuff_2: 7619146058604081194
+      Dmitri dumb tilemap stuff_3: -1054524104001521550
+      Dmitri dumb tilemap stuff_4: -7145484907842656423
+      Dmitri dumb tilemap stuff_5: 430011754481534394
+      Dmitri dumb tilemap stuff_6: -4151565356627275077
+      Dmitri dumb tilemap stuff_7: 6415498606340821609
+      Dmitri dumb tilemap stuff_8: 1332864871265543998
+      Dmitri dumb tilemap stuff_9: -3000372183637509564
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -64,6 +64,26 @@ PrefabInstance:
       propertyPath: m_Text
       value: Scrap Man
       objectReference: {fileID: 0}
+    - target: {fileID: 4029857073882304413, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029857073882304413, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435665576394945477, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1581413215871715206, guid: afe5818e25c319a4287dd8e10184bc8e, type: 3}
+    - target: {fileID: 7557930888527266209, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7557930888527266209, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.2
+      objectReference: {fileID: 0}
     - target: {fileID: 7679066451783421803, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
       propertyPath: startnode
       value: NPC_Dialog_ScrapYardOwner

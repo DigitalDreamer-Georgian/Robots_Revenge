@@ -68,6 +68,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 8986257192013791284, guid: d181373ee198ce14ea8d89a23fcf81cf, type: 3}
+    - target: {fileID: 7435665576394945477, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
+      propertyPath: m_SortingLayer
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435665576394945477, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1454298515
+      objectReference: {fileID: 0}
     - target: {fileID: 7679066451783421803, guid: ef8a854aa65ac2141bf6b74851d2b72f, type: 3}
       propertyPath: startnode
       value: NPC_Dialog_Jay

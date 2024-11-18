@@ -429,8 +429,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 92, y: -20}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 7.317, y: -7.9855}
+  m_SizeDelta: {x: 2.517, y: 0.8209}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4545098451413920722
 CanvasRenderer:
@@ -494,8 +494,8 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -525,7 +525,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 195.05225, w: 48.419003}
+  m_margin: {x: 0, y: 0, z: 0.029253483, w: 0.017551422}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -558,7 +558,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1814665704005927721}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.70000076, y: -21.599998, z: -1}
   m_LocalScale: {x: 0.3, y: 0.5, z: -1}
   m_ConstrainProportionsScale: 0
@@ -729,8 +729,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 107, y: -32.5}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -6.68, y: 4.604}
+  m_SizeDelta: {x: 2.1241, y: 1.2237}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &402185426848365578
 CanvasRenderer:
@@ -794,8 +794,8 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -825,7 +825,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 195.05225, w: 48.419003}
+  m_margin: {x: 0, y: 0, z: 0.024559975, w: 0.02003479}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1829,7 +1829,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2225303865952214958, guid: 6184ef4c69a1fd1408079ca165f261cf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.78
+      value: -2.29
       objectReference: {fileID: 0}
     - target: {fileID: 2225303865952214958, guid: 6184ef4c69a1fd1408079ca165f261cf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1863,6 +1863,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3160862981665664695, guid: 6184ef4c69a1fd1408079ca165f261cf, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3160862981665664695, guid: 6184ef4c69a1fd1408079ca165f261cf, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 8863510646979449583, guid: 6184ef4c69a1fd1408079ca165f261cf, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1581413215871715206, guid: afe5818e25c319a4287dd8e10184bc8e, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

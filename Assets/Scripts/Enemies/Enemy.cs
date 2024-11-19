@@ -6,12 +6,12 @@ public class Enemy : MonoBehaviour
     public int health;
     public float speed;
 
-    private Animator anim;
+    //private Animator anim;
 
     private void Start()
     {
-        anim = GetComponent<Animator>();
-        anim.SetBool("isRunning", true);
+        //anim = GetComponent<Animator>();
+        //anim.SetBool("isRunning", true);
     }
     private void Update()
     {

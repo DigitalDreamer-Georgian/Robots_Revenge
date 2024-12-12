@@ -8,7 +8,7 @@ public class PlayerAttack : MonoBehaviour
     public Transform attackPos;
     public LayerMask whatIsEnemies;
     public float attackRange;
-    public int damage;
+    public int damage = 1;
 
     private void Update()
     {

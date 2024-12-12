@@ -18,6 +18,12 @@ public class Ani_Trigger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKey(KeyCode.Mouse0))
+        {
+            animator.SetTrigger("attack");
+            animator.SetBool("isattack", true);
+        }
+
         if (Input.GetAxis("Horizontal") > 0)
         {
             animator.SetInteger("Direction", 1);
@@ -33,6 +39,13 @@ public class Ani_Trigger : MonoBehaviour
         else if (Input.GetAxis("Vertical") < 0)
         {
             animator.SetInteger("Direction", 4);
+        }
+    }
+    public void ResetAttack() 
+    {
+        if (animator != null) 
+        {
+            animator.SetBool("isattack", false); 
         }
     }
 }

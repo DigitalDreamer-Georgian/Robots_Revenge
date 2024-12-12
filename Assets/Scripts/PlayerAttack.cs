@@ -17,7 +17,6 @@ public class PlayerAttack : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.Mouse0))
             {
-                animator.SetTrigger("attack");
                 Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsEnemies);
                 for (int i = 0; i < enemiesToDamage.Length; i++)
                     enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(damage);

@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
@@ -19,23 +18,23 @@ public class PlayerAttack : MonoBehaviour
             {
                 Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsEnemies);
                 for (int i = 0; i < enemiesToDamage.Length; i++)
+                {
                     enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(damage);
-
+                }
+                timeBtwAttack = startTimeBtwAttack;
             }
-            timeBtwAttack = startTimeBtwAttack;
         }
         else
         {
             timeBtwAttack -= Time.deltaTime;
         }
 
-        if (Input.GetAxisRaw("Horizontal") != 0)
-        {
-            attackPos.localPosition = new Vector3(Input.GetAxisRaw("Horizontal") > 0 ? 0.3f : -0.3f, 0, 0);
-        }
+        Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector3 direction = (mousePosition - transform.position).normalized;
+        attackPos.localPosition = new Vector3(direction.x, direction.y, 0).normalized * attackRange;
     }
 
-    void OnDrawGizmosSelected()
+    private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(attackPos.position, attackRange);

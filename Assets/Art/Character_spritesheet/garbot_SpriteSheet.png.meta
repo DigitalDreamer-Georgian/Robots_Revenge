@@ -108,7 +108,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -165,7 +165,7 @@ TextureImporter:
         width: 64
         height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -187,7 +187,7 @@ TextureImporter:
         width: 62
         height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -209,7 +209,7 @@ TextureImporter:
         width: 64
         height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -231,7 +231,7 @@ TextureImporter:
         width: 69
         height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -253,7 +253,7 @@ TextureImporter:
         width: 52
         height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -275,7 +275,7 @@ TextureImporter:
         width: 72
         height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -297,7 +297,7 @@ TextureImporter:
         width: 40
         height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -319,7 +319,7 @@ TextureImporter:
         width: 40
         height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -341,7 +341,7 @@ TextureImporter:
         width: 40
         height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -363,7 +363,7 @@ TextureImporter:
         width: 39
         height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -385,7 +385,7 @@ TextureImporter:
         width: 41
         height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -399,37 +399,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: garbot_SpriteSheet_11
-      rect:
-        serializedVersion: 2
-        x: 334
-        y: 92
-        width: 7
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 25274d20b271ba760800000000000000
-      internalID: 7470089880422609490
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: garbot_SpriteSheet_12
       rect:
         serializedVersion: 2
-        x: 337
+        x: 333
         y: 68
-        width: 37
+        width: 41
         height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -451,7 +429,7 @@ TextureImporter:
         width: 40
         height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -473,7 +451,7 @@ TextureImporter:
         width: 40
         height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -495,7 +473,7 @@ TextureImporter:
         width: 40
         height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -517,7 +495,7 @@ TextureImporter:
         width: 40
         height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -536,10 +514,10 @@ TextureImporter:
         serializedVersion: 2
         x: 253
         y: 3
-        width: 41
+        width: 44
         height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -553,28 +531,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: garbot_SpriteSheet_18
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 30
-        width: 9
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 769f9ddf9a187a530800000000000000
-      internalID: 3866201372229237095
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: garbot_SpriteSheet_19
       rect:
         serializedVersion: 2
@@ -583,7 +539,7 @@ TextureImporter:
         width: 37
         height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -600,7 +556,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6ed277b5cfb9a444494b7eb4fd244a6a
     internalID: 0
     vertices: []
     indices: 
@@ -609,7 +565,27 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      garbot_SpriteSheet_0: -6518730936148223178
+      garbot_SpriteSheet_1: 5628175338948745885
+      garbot_SpriteSheet_10: 1456801693546047790
+      garbot_SpriteSheet_11: 7470089880422609490
+      garbot_SpriteSheet_12: 5494141474426008269
+      garbot_SpriteSheet_13: 8412413077725764759
+      garbot_SpriteSheet_14: 3053614858849917411
+      garbot_SpriteSheet_15: 1648036021643213571
+      garbot_SpriteSheet_16: 8019008584962535517
+      garbot_SpriteSheet_17: -7418799880999111219
+      garbot_SpriteSheet_18: 3866201372229237095
+      garbot_SpriteSheet_19: -7158783671754099806
+      garbot_SpriteSheet_2: -666707406001622419
+      garbot_SpriteSheet_3: -3505670087247992630
+      garbot_SpriteSheet_4: 8741572015712825645
+      garbot_SpriteSheet_5: 3059283594565679647
+      garbot_SpriteSheet_6: -77346761386694740
+      garbot_SpriteSheet_7: 8566803579667196871
+      garbot_SpriteSheet_8: 2070244156410519602
+      garbot_SpriteSheet_9: -8669562140749094981
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

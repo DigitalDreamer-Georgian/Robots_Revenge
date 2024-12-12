@@ -3,15 +3,20 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public int health;
+    public int health, maxHealth = 2;
     public float speed;
 
-    //private Animator anim;
+    [SerializeField] HealthBar healthBar;
+
+    private void Awake()
+    {
+        healthBar = GetComponentInChildren<HealthBar>();
+    }
 
     private void Start()
     {
-        //anim = GetComponent<Animator>();
-        //anim.SetBool("isRunning", true);
+        health = maxHealth;
+        healthBar.UpdateHealthBar(health, maxHealth);
     }
     private void Update()
     {
@@ -23,6 +28,8 @@ public class Enemy : MonoBehaviour
     }
     public void TakeDamage(int damage)
     {
+        damage = 1;
         health -= damage;
+        healthBar.UpdateHealthBar(health, maxHealth);
     }
 }

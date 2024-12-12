@@ -196,6 +196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startTimeBtwAttack: 0
+  animator: {fileID: 9219704586057780381}
   attackPos: {fileID: 1238335639101013337}
   whatIsEnemies:
     serializedVersion: 2

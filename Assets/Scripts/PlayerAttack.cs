@@ -5,7 +5,7 @@ public class PlayerAttack : MonoBehaviour
 {
     private float timeBtwAttack;
     public float startTimeBtwAttack;
-
+    public Animator animator;
     public Transform attackPos;
     public LayerMask whatIsEnemies;
     public float attackRange;
@@ -17,9 +17,11 @@ public class PlayerAttack : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.Mouse0))
             {
+                animator.SetTrigger("attack");
                 Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsEnemies);
                 for (int i = 0; i < enemiesToDamage.Length; i++)
                     enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(damage);
+
             }
             timeBtwAttack = startTimeBtwAttack;
         }

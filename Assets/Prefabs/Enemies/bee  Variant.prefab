@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7516358892876661778}
     m_Modifications:
+    - target: {fileID: 1371917390116854745, guid: c93c9456aa61c7542bc6575f56a9344c, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3959332092514382639, guid: c93c9456aa61c7542bc6575f56a9344c, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -94,6 +98,10 @@ PrefabInstance:
       propertyPath: health
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 1239195817892767515, guid: ec2dfca970431314bbbc575806571746, type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2681689959782921041, guid: ec2dfca970431314bbbc575806571746, type: 3}
       propertyPath: m_LocalPosition.x
       value: 48.23
@@ -159,6 +167,8 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 5548645833019806860, guid: ec2dfca970431314bbbc575806571746, type: 3}
     - {fileID: 2213285742378074403, guid: ec2dfca970431314bbbc575806571746, type: 3}
+    - {fileID: 7666901883669252683, guid: ec2dfca970431314bbbc575806571746, type: 3}
+    - {fileID: 6772794318384217068, guid: ec2dfca970431314bbbc575806571746, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 2681689959782921041, guid: ec2dfca970431314bbbc575806571746, type: 3}
       insertIndex: -1

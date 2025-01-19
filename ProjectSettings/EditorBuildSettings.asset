@@ -6,13 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Level1 whole asset/Scenes/SampleScene.unity
+    path: Assets/Art/Level1 whole asset/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 0
     path: Assets/Scenes/Testing_Zone.unity
     guid: 5172629eb0feb084796605b6ce6b453d
   - enabled: 0
-    path: Assets/Level1 whole asset/Scenes/GreyBox.unity
+    path: Assets/Art/Level1 whole asset/Scenes/GreyBox.unity
     guid: 770c1b03cf58ab848a3a8c414ff3d44c
   - enabled: 0
     path: Assets/Scenes/main menu.unity

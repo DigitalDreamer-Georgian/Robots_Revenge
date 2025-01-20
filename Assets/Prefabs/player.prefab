@@ -16,8 +16,8 @@ GameObject:
   - component: {fileID: 4488944369767032907}
   - component: {fileID: 6940581256030990530}
   - component: {fileID: 5558595659059386066}
-  - component: {fileID: 8309922339118586078}
   - component: {fileID: 269259563676449094}
+  - component: {fileID: -7700768462225205395}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -183,26 +183,6 @@ MonoBehaviour:
   dashLength: 0.5
   dashCooldown: 1
   speed: 5
---- !u!114 &8309922339118586078
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2487190706002569228}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a148f4cfd0ec6942bebb34d46f31e4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startTimeBtwAttack: 0
-  animator: {fileID: 9219704586057780381}
-  attackPos: {fileID: 1238335639101013337}
-  whatIsEnemies:
-    serializedVersion: 2
-    m_Bits: 256
-  attackRange: 0.35
-  damage: 1
 --- !u!114 &269259563676449094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -216,6 +196,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+--- !u!114 &-7700768462225205395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2487190706002569228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7daf64ea1f90f0242ab0d36afac43532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 2508051403189846441, guid: 315a6a51fc1a8e14c970bd0bdcf8d864, type: 3}
+  weaponType: 0
+  attackPos: {fileID: 1238335639101013337}
+  whatIsEnemies:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!1 &4399844611422235829
 GameObject:
   m_ObjectHideFlags: 0

@@ -12,6 +12,10 @@ public class PlayerAttack : MonoBehaviour
 
     private void Update()
     {
+        PerformAttack();
+    }
+    public void PerformAttack()
+    {
         if (timeBtwAttack <= 0)
         {
             if (Input.GetKey(KeyCode.Mouse0))
@@ -28,7 +32,7 @@ public class PlayerAttack : MonoBehaviour
         {
             timeBtwAttack -= Time.deltaTime;
         }
-
+        
         Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector3 direction = (mousePosition - transform.position).normalized;
         attackPos.localPosition = new Vector3(direction.x, direction.y, 0).normalized * attackRange;

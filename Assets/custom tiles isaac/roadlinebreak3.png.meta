@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      roadlinebreak3_0: 368541914020273120
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

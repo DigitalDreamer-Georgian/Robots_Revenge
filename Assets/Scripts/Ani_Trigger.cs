@@ -27,18 +27,26 @@ public class Ani_Trigger : MonoBehaviour
         if (Input.GetAxis("Horizontal") > 0)
         {
             animator.SetInteger("Direction", 1);
+            animator.SetBool("isattack", false);
         }
         else if(Input.GetAxis("Horizontal") < 0)
         {
             animator.SetInteger("Direction", 2);
+            animator.SetBool("isattack", false);
         }
-        if (Input.GetAxis("Vertical")>0)
+        else if (Input.GetAxis("Vertical")>0)
         {
             animator.SetInteger("Direction", 3);
+            animator.SetBool("isattack", false);
         }
         else if (Input.GetAxis("Vertical") < 0)
         {
             animator.SetInteger("Direction", 4);
+            animator.SetBool("isattack", false);
+        }
+        else
+        {
+            animator.SetInteger("Direction", 0);
         }
     }
     public void ResetAttack() 

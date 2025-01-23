@@ -105,8 +105,8 @@ public class Player : MonoBehaviour
         GameObject bulletLeft = Instantiate(bulletPrefab);
         GameObject bulletRight = Instantiate(bulletPrefab);
 
-        Vector3 directionLeft = Quaternion.Euler(0.0f, 0.0f, 30.0f) * direction;
-        Vector3 directionRight = Quaternion.Euler(0.0f, 0.0f, -30.0f) * direction;
+        Vector3 directionLeft = Quaternion.Euler(0.0f, 0.0f, 10.0f) * direction;
+        Vector3 directionRight = Quaternion.Euler(0.0f, 0.0f, -10.0f) * direction;
 
         bullet.transform.position = transform.position + direction * 0.75f;
         bulletLeft.transform.position = transform.position + directionLeft * 0.75f;

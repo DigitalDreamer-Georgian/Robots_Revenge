@@ -10,6 +10,7 @@ public enum WeaponType
 
 public class Player : MonoBehaviour
 {
+    public GameObject GunSprite;
     [SerializeField]
     GameObject bulletPrefab;
 
@@ -37,7 +38,7 @@ public class Player : MonoBehaviour
         mouse.z = 0.0f;
         Vector3 mouseDirection = (mouse - transform.position).normalized;
         Debug.DrawLine(transform.position, transform.position + mouseDirection * 5.0f);
-
+        GunSprite.transform.position = transform.position + mouseDirection * 0.75f;
         if (weaponType == WeaponType.SWORD && attackPos != null)
         {
             attackPos.localPosition = mouseDirection * attackRange;
@@ -67,7 +68,7 @@ public class Player : MonoBehaviour
         }
 
         // Cycle Weapon
-        if (Input.GetKeyDown(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             int weaponNumber = (int)++weaponType;
             weaponNumber %= (int)WeaponType.COUNT;

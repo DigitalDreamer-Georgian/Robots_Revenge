@@ -104,11 +104,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2681689959782921041, guid: ec2dfca970431314bbbc575806571746, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 48.23
+      value: 73.61
       objectReference: {fileID: 0}
     - target: {fileID: 2681689959782921041, guid: ec2dfca970431314bbbc575806571746, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -42.18
+      value: -3.56
       objectReference: {fileID: 0}
     - target: {fileID: 2681689959782921041, guid: ec2dfca970431314bbbc575806571746, type: 3}
       propertyPath: m_LocalPosition.z
@@ -164,6 +164,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6233882086419634218, guid: ec2dfca970431314bbbc575806571746, type: 3}
+    - {fileID: 412298251774353459, guid: ec2dfca970431314bbbc575806571746, type: 3}
     m_RemovedGameObjects:
     - {fileID: 5548645833019806860, guid: ec2dfca970431314bbbc575806571746, type: 3}
     - {fileID: 2213285742378074403, guid: ec2dfca970431314bbbc575806571746, type: 3}
@@ -173,8 +174,35 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2681689959782921041, guid: ec2dfca970431314bbbc575806571746, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6562534505578569095}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 9099606734543937319, guid: ec2dfca970431314bbbc575806571746, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3002707099509382271}
   m_SourcePrefab: {fileID: 100100000, guid: ec2dfca970431314bbbc575806571746, type: 3}
+--- !u!1 &3688573733832419428 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9099606734543937319, guid: ec2dfca970431314bbbc575806571746, type: 3}
+  m_PrefabInstance: {fileID: 5582280292729927491}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3002707099509382271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3688573733832419428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90d0a9b29a38ef647a38de457aab52f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 7
+  target: {fileID: 0}
+  minimumDistance: 5
+  proximityDistance: 5
+  bulletPrefab: {fileID: 2508051403189846441, guid: 9e1ac71a5c36f7b41919cdf919ccdd2a, type: 3}
+  cooldown: 3
+  stopDuration: 2
 --- !u!4 &7516358892876661778 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2681689959782921041, guid: ec2dfca970431314bbbc575806571746, type: 3}

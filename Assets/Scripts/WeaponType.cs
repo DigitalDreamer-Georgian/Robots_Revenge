@@ -4,6 +4,7 @@ public enum WeaponType
 {
     GUN,
     SWORD,
+    SHOTGUN,
     COUNT
 }
 
@@ -54,6 +55,9 @@ public class Player : MonoBehaviour
                 case WeaponType.SWORD:
                     SwordAttack();
                     break;
+                case WeaponType.SHOTGUN:
+                    ShootShotgun(mouseDirection);
+                    break;
             }
         }
 
@@ -94,6 +98,32 @@ public class Player : MonoBehaviour
             timeBtwAttack = startTimeBtwAttack;
         }
     }
+    void ShootShotgun(Vector3 direction)
+    {
+        GameObject bullet = Instantiate(bulletPrefab);
+        GameObject bulletLeft = Instantiate(bulletPrefab);
+        GameObject bulletRight = Instantiate(bulletPrefab);
+
+        Vector3 directionLeft = Quaternion.Euler(0.0f, 0.0f, 30.0f) * direction;
+        Vector3 directionRight = Quaternion.Euler(0.0f, 0.0f, -30.0f) * direction;
+
+        bullet.transform.position = transform.position + direction * 0.75f;
+        bulletLeft.transform.position = transform.position + directionLeft * 0.75f;
+        bulletRight.transform.position = transform.position + directionRight * 0.75f;
+
+        bullet.GetComponent<Rigidbody2D>().velocity = direction * bulletSpeed;
+        bulletLeft.GetComponent<Rigidbody2D>().velocity = directionLeft * bulletSpeed;
+        bulletRight.GetComponent<Rigidbody2D>().velocity = directionRight * bulletSpeed;
+
+        bullet.GetComponent<SpriteRenderer>().color = Color.white;
+        bulletLeft.GetComponent<SpriteRenderer>().color = Color.white;
+        bulletRight.GetComponent<SpriteRenderer>().color = Color.white;
+
+        Destroy(bullet, 1.0f);
+        Destroy(bulletLeft, 1.0f);
+        Destroy(bulletRight, 1.0f);
+    }
+
 
     private void OnDrawGizmosSelected()
     {

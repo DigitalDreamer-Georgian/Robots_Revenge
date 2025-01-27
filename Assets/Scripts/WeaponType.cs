@@ -38,7 +38,10 @@ public class Player : MonoBehaviour
         mouse.z = 0.0f;
         Vector3 mouseDirection = (mouse - transform.position).normalized;
         Debug.DrawLine(transform.position, transform.position + mouseDirection * 5.0f);
-        GunSprite.transform.position = transform.position + mouseDirection * 0.75f;
+        // Calculate the angle in degrees
+        float angle = Mathf.Atan2(mouseDirection.y, mouseDirection.x) * Mathf.Rad2Deg;
+        GunSprite.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
+        GunSprite.transform.position = transform.position + mouseDirection * 0.7f;
         if (weaponType == WeaponType.SWORD && attackPos != null)
         {
             attackPos.localPosition = mouseDirection * attackRange;
@@ -68,7 +71,7 @@ public class Player : MonoBehaviour
         }
 
         // Cycle Weapon
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.R))
         {
             int weaponNumber = (int)++weaponType;
             weaponNumber %= (int)WeaponType.COUNT;

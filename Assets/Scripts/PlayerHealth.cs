@@ -4,19 +4,18 @@ public class PlayerHealth : MonoBehaviour
 {
     private float health = 0f;
     [SerializeField] private float maxHealth = 100f;
-
-    [SerializeField] private HealthBar healthBar; // Reference to the health bar
+    [SerializeField] private Transform respawn;
+    [SerializeField] private HealthBar healthBar;
 
     private void Awake()
     {
-        // Get the HealthBar component attached to a child of the player
         healthBar = GetComponentInChildren<HealthBar>();
     }
 
     private void Start()
     {
         health = maxHealth;
-        healthBar?.UpdateHealthBar(health, maxHealth); // Initialize health bar
+        healthBar?.UpdateHealthBar(health, maxHealth);
     }
 
     public void UpdateHealth(float mod)
@@ -30,13 +29,12 @@ public class PlayerHealth : MonoBehaviour
         else if (health <= 0f)
         {
             health = 0f;
-            Debug.Log("Player Respawn");
+            Respawn();
         }
 
-        healthBar?.UpdateHealthBar(health, maxHealth); // Update health bar
+        healthBar?.UpdateHealthBar(health, maxHealth);
     }
 
-    // Method to handle damage, similar to the Enemy script
     public void TakeDamage(int damage)
     {
         health -= damage;
@@ -44,11 +42,21 @@ public class PlayerHealth : MonoBehaviour
         {
             health = 0;
         }
-        healthBar?.UpdateHealthBar(health, maxHealth); // Update health bar after damage
+        healthBar?.UpdateHealthBar(health, maxHealth);
 
         if (health <= 0)
         {
-            Debug.Log("Player Respawn"); // Placeholder for respawn or death logic
+            Respawn();
+        }
+    }
+
+    private void Respawn()
+    {
+        health = maxHealth;
+        healthBar?.UpdateHealthBar(health, maxHealth);
+        if (respawn != null)
+        {
+            transform.position = respawn.position;
         }
     }
 }

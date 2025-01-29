@@ -616,7 +616,7 @@ GameObject:
   - component: {fileID: 412298251774353459}
   m_Layer: 8
   m_Name: enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -728,6 +728,8 @@ MonoBehaviour:
   maxHealth: 2
   speed: 0
   healthBar: {fileID: 7053462728678455901}
+  ScrapPrefab: {fileID: 4991813131610487934, guid: 308398d7c0a6899499ad784a70dadbac, type: 3}
+  ScrapSpawnPoint: {fileID: 2681689959782921041}
 --- !u!114 &412298251774353459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -742,4 +744,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2.3
   target: {fileID: 0}
-  MinimumDistance: 1.5
+  minimumDistance: 0
+  proximityDistance: 0

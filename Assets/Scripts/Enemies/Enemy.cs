@@ -7,6 +7,8 @@ public class Enemy : MonoBehaviour
     public float speed;
 
     [SerializeField] HealthBar healthBar;
+    [SerializeField] private GameObject ScrapPrefab;
+    [SerializeField] private Transform ScrapSpawnPoint;
 
     private void Awake()
     {
@@ -22,6 +24,7 @@ public class Enemy : MonoBehaviour
     {
         if (health <= 0)
         {
+            DropScrap();
             Destroy(gameObject);
         }
         transform.Translate(Vector2.left * speed * Time.deltaTime);
@@ -31,5 +34,13 @@ public class Enemy : MonoBehaviour
         damage = 1;
         health -= damage;
         healthBar.UpdateHealthBar(health, maxHealth);
+    }
+    private void DropScrap()
+    {
+        if (ScrapPrefab != null)
+        {
+            Vector3 spawnPosition = ScrapSpawnPoint ? ScrapSpawnPoint.position : transform.position;
+            Instantiate(ScrapPrefab, spawnPosition, Quaternion.identity);
+        }
     }
 }

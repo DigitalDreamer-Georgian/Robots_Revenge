@@ -162,6 +162,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bee  Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 9099606734543937319, guid: ec2dfca970431314bbbc575806571746, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6233882086419634218, guid: ec2dfca970431314bbbc575806571746, type: 3}
     - {fileID: 412298251774353459, guid: ec2dfca970431314bbbc575806571746, type: 3}

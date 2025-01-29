@@ -1,6 +1,6 @@
 using UnityEngine;
 using TMPro;
-using Unity.Android.Types;
+//using Unity.Android.Types;
 
 public class Score : MonoBehaviour
 {

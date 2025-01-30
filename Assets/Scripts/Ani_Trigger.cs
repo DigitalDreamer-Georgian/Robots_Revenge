@@ -1,7 +1,9 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Ani_Trigger : MonoBehaviour
 {
+
     private Animator animator;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -18,6 +20,7 @@ public class Ani_Trigger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (Input.GetKey(KeyCode.Mouse0))
         {
             animator.SetTrigger("attack");
@@ -56,4 +59,6 @@ public class Ani_Trigger : MonoBehaviour
             animator.SetBool("isattack", false); 
         }
     }
+
+
 }

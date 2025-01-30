@@ -2,14 +2,15 @@ using UnityEngine;
 
 public enum WeaponType
 {
-    GUN,
     SWORD,
+    GUN,
     SHOTGUN,
     COUNT
 }
 
 public class Player : MonoBehaviour
 {
+    public Animator ani;
     public GameObject GunSprite;
     [SerializeField]
     GameObject bulletPrefab;
@@ -77,6 +78,23 @@ public class Player : MonoBehaviour
             weaponNumber %= (int)WeaponType.COUNT;
             weaponType = (WeaponType)weaponNumber;
             Debug.Log("Selected weapon: " + weaponType);
+            switch (weaponType)
+            {
+                case WeaponType.GUN:
+                    ani.SetBool("floatingGun", true);
+                    GunSprite.SetActive(true);
+                    break;
+
+                case WeaponType.SWORD:
+                    ani.SetBool("floatingGun", false);
+                    GunSprite.SetActive(false);
+                    break;
+
+                case WeaponType.SHOTGUN:
+                    ani.SetBool("floatingGun", true);
+                    GunSprite.SetActive(true);
+                    break;
+            }
         }
     }
 

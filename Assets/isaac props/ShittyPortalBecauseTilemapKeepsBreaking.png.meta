@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ShittyPortalBecauseTilemapKeepsBreaking_0: -4358793698125221132
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

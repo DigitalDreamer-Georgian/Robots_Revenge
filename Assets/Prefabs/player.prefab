@@ -498,6 +498,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  respawn: {fileID: 0}
   healthBar: {fileID: 0}
 --- !u!114 &-7700768462225205395
 MonoBehaviour:
@@ -511,6 +512,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7daf64ea1f90f0242ab0d36afac43532, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ani: {fileID: 9219704586057780381}
   GunSprite: {fileID: 146816436398943370}
   bulletPrefab: {fileID: 2508051403189846441, guid: 315a6a51fc1a8e14c970bd0bdcf8d864, type: 3}
   weaponType: 0

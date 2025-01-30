@@ -744,5 +744,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2.3
   target: {fileID: 0}
+  attackRange: 0.5
+  attackCooldown: 1
+  damage: 10
   minimumDistance: 0
   proximityDistance: 0

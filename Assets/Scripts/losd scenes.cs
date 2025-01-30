@@ -9,8 +9,9 @@ public class losdscenes : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void OnCollisionEnter2D()
     {
+       // if (other.gameObjiect.CompareTag("player"))
         SceneManager.LoadScene(1);
     }
 }

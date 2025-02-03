@@ -5,7 +5,7 @@ public class MainMenu : MonoBehaviour
 {
     public void OnPlayButtonPress()
     {
-        SceneManager.LoadSceneAsync(0);
+        SceneManager.LoadSceneAsync(1);
     }
 
     public void OnQuitButtonPress()

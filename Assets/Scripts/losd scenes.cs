@@ -1,17 +1,14 @@
-
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class losdscenes : MonoBehaviour
-{
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-    }
 
-    // Update is called once per frame
-    void OnCollisionEnter2D()
+public class Checkpoint : MonoBehaviour
+{
+    public string nextlvl; // Set this in the Inspector for each checkpoint
+    public BoxCollider2D Collider2D;
+    private void OnTriggerEnter2D(Collider2D other)
     {
-       // if (other.gameObjiect.CompareTag("player"))
-        SceneManager.LoadScene(1);
+   
+            SceneManager.LoadScene(nextlvl);
+        
     }
 }

@@ -1634,11 +1634,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5096698817090443265, guid: acc9faef44106754ab55aba9043dfe0b, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5096698817090443265, guid: acc9faef44106754ab55aba9043dfe0b, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7482536554275800542, guid: acc9faef44106754ab55aba9043dfe0b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -34370,6 +34370,12 @@ PrefabInstance:
     - target: {fileID: 3343719024744582499, guid: 5a9c2e5f5895755459d5e216c80bfe34, type: 3}
       propertyPath: m_Name
       value: TutorialGuideUI
+      objectReference: {fileID: 0}
+    - target: {fileID: 5770209429513082443, guid: 5a9c2e5f5895755459d5e216c80bfe34, type: 3}
+      propertyPath: m_text
+      value: 'Mission:
+
+        Clear ALL the crazy robots to reach the next level!'
       objectReference: {fileID: 0}
     - target: {fileID: 5848382948108725286, guid: 5a9c2e5f5895755459d5e216c80bfe34, type: 3}
       propertyPath: m_Pivot.x

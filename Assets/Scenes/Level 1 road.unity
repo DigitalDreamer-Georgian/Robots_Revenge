@@ -887,6 +887,12 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5770209429513082443, guid: 5a9c2e5f5895755459d5e216c80bfe34, type: 3}
+      propertyPath: m_text
+      value: 'Mission:
+
+        Clear ALL the crazy robots to reach the next level!'
+      objectReference: {fileID: 0}
     - target: {fileID: 5848382948108725286, guid: 5a9c2e5f5895755459d5e216c80bfe34, type: 3}
       propertyPath: m_Pivot.x
       value: 0
